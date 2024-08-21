@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Transformer | NLPwShiyi Docs</title>
+  <title>GPT Architecture | NLPwShiyi Docs</title>
   <meta name="author" content="Shiyi S">
   
-  <meta name="description" content="Summarizing and breaking down of the code that form the Transformer model continuedLet’s break down the code snippet line by line to understand what e">
+  <meta name="description" content="Summary and breakdown of the code that form the Generative Pre-trained Transformer architecture continuedLet’s break down the code snippet line by lin">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Transformer"/>
+  <meta property="og:title" content="GPT Architecture"/>
   <meta property="og:site_name" content="NLPwShiyi Docs"/>
 
   
@@ -74,7 +74,7 @@
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/nlp-docs/">NLPwShiyi Docs</a><span class="split"></span><span class="title">Transformer</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2024-07-17</span></h1>
+  <h1><a class="brand" href="/nlp-docs/">NLPwShiyi Docs</a><span class="split"></span><span class="title">GPT Architecture</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2024-07-17</span></h1>
 </div>		
 
 <div class="row page">
@@ -87,7 +87,7 @@
 	  
 
 	  <!-- content -->
-	  <h3 id="Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued"><a href="#Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued" class="headerlink" title="Summarizing and breaking down of the code that form the Transformer model continued"></a>Summarizing and breaking down of the code that form the Transformer model continued</h3><p>Let’s break down the code snippet line by line to understand what each step does in the context of creating positional encodings for a Transformer model using PyTorch.</p>
+	  <h3 id="Summary-and-breakdown-of-the-code-that-form-the-Generative-Pre-trained-Transformer-architecture-continued"><a href="#Summary-and-breakdown-of-the-code-that-form-the-Generative-Pre-trained-Transformer-architecture-continued" class="headerlink" title="Summary and breakdown of the code that form the Generative Pre-trained Transformer architecture continued"></a>Summary and breakdown of the code that form the Generative Pre-trained Transformer architecture continued</h3><p>Let’s break down the code snippet line by line to understand what each step does in the context of creating positional encodings for a Transformer model using PyTorch.</p>
 <h4 id="Code-Snippet"><a href="#Code-Snippet" class="headerlink" title="Code Snippet"></a>Code Snippet</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">div_term = torch.exp(torch.arange(<span class="number">0</span>, d_model, <span class="number">2</span>).<span class="built_in">float</span>() *</span><br><span class="line">                                 (-math.log(<span class="number">10000.0</span>) / d_model))</span><br><span class="line">pe[:, <span class="number">0</span>::<span class="number">2</span>] = torch.sin(position * div_term)</span><br><span class="line">pe[:, <span class="number">1</span>::<span class="number">2</span>] = torch.cos(position * div_term)</span><br><span class="line">pe = pe.unsqueeze(<span class="number">0</span>).transpose(<span class="number">0</span>, <span class="number">1</span>)</span><br></pre></td></tr></table></figure>
 
 <h4 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h4><h6 id="1-div-term-torch-exp-torch-arange-0-d-model-2-float-math-log-10000-0-d-model"><a href="#1-div-term-torch-exp-torch-arange-0-d-model-2-float-math-log-10000-0-d-model" class="headerlink" title="1. div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))"></a>1. <code>div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))</code></h6><ul>
@@ -1039,8 +1039,8 @@ $$ \text{Jacobian} = \begin{pmatrix}
           },
         
           {
-            title: 'Transformer',
-            content: '&lt;h3 id=&#34;Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued&#34;&gt;&lt;a href=&#34;#Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued&#34; class=&#34;headerlink&#34; title=&#34;Summarizing and breaking down of the code that form the Transformer model continued&#34;&gt;&lt;/a&gt;Summarizing and breaking down of the code that form the Transformer model continued&lt;/h3&gt;&lt;p&gt;Let’s break down the code snippet line by line to understand what each step does in the context of creating positional encodings for a Transformer model using PyTorch.&lt;/p&gt;
+            title: 'GPT Architecture',
+            content: '&lt;h3 id=&#34;Summary-and-breakdown-of-the-code-that-form-the-Generative-Pre-trained-Transformer-architecture-continued&#34;&gt;&lt;a href=&#34;#Summary-and-breakdown-of-the-code-that-form-the-Generative-Pre-trained-Transformer-architecture-continued&#34; class=&#34;headerlink&#34; title=&#34;Summary and breakdown of the code that form the Generative Pre-trained Transformer architecture continued&#34;&gt;&lt;/a&gt;Summary and breakdown of the code that form the Generative Pre-trained Transformer architecture continued&lt;/h3&gt;&lt;p&gt;Let’s break down the code snippet line by line to understand what each step does in the context of creating positional encodings for a Transformer model using PyTorch.&lt;/p&gt;
 &lt;h4 id=&#34;Code-Snippet&#34;&gt;&lt;a href=&#34;#Code-Snippet&#34; class=&#34;headerlink&#34; title=&#34;Code Snippet&#34;&gt;&lt;/a&gt;Code Snippet&lt;/h4&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;div_term = torch.exp(torch.arange(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;, d_model, &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;).&lt;span class=&#34;built_in&#34;&gt;float&lt;/span&gt;() *&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                                 (-math.log(&lt;span class=&#34;number&#34;&gt;10000.0&lt;/span&gt;) / d_model))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe[:, &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;::&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;] = torch.sin(position * div_term)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe[:, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;::&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;] = torch.cos(position * div_term)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe = pe.unsqueeze(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;).transpose(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h4 id=&#34;Explanation&#34;&gt;&lt;a href=&#34;#Explanation&#34; class=&#34;headerlink&#34; title=&#34;Explanation&#34;&gt;&lt;/a&gt;Explanation&lt;/h4&gt;&lt;h6 id=&#34;1-div-term-torch-exp-torch-arange-0-d-model-2-float-math-log-10000-0-d-model&#34;&gt;&lt;a href=&#34;#1-div-term-torch-exp-torch-arange-0-d-model-2-float-math-log-10000-0-d-model&#34; class=&#34;headerlink&#34; title=&#34;1. div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))&#34;&gt;&lt;/a&gt;1. &lt;code&gt;div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))&lt;/code&gt;&lt;/h6&gt;&lt;ul&gt;
