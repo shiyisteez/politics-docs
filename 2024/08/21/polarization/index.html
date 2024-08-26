@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>intro | POLITICS Docs</title>
+  <title>Types of Polarization | POLITICS Docs</title>
   <meta name="author" content="Shiyi S">
+  
+  <meta name="description" content="The Potential Types of Polarizations in a Socio-Political setting.
+To measure subjectivity and opinions, we need to understand the importance and defi">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Types of Polarization"/>
   <meta property="og:site_name" content="POLITICS Docs"/>
 
   
@@ -72,391 +75,208 @@
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
 	<div class="content">
-	  <div class="page-header">
-  <h1><a class="brand" href="#">POLITICS Docs</a></h1>
-</div>
-
-<div class="intro-posts">
-
-  
-    <div class="post">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"><h2 id="Measuring-Political-Subjectivity-And-Polarization"><a href="#Measuring-Political-Subjectivity-And-Polarization" class="headerlink" title=" Measuring Political Subjectivity And Polarization"></a><span id="title-politics" style="margin-bottom: 10px"> Measuring Political Subjectivity And Polarization</span></h2><p></p>
-
-
-<p>The <code>POLITICS</code> tool is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates in federal elections.</p>
-<p><span class="label label-danger">Q</span> What is the primary purpose of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span> The primary purpose of the <code>POLITICS</code> tool is to offer voters a clear and objective understanding of a candidate’s political stance by utilizing quantitative data and advanced analytical methods. This assists voters in making informed decisions during federal elections.</p>
-<p><span class="label label-danger">Q</span> Why is deciphering political discourse often challenging?</p>
-<p><span class="label label-success">A</span> Political discourse can be exceedingly complex and difficult to interpret due to its nuanced and layered nature. Human interpretation is frequently influenced by personal biases and subjectivity, as highlighted by Chilton (2004) and van Dijk (2000), making it challenging to attain an unbiased understanding of political statements and positions.</p>
-<p><span class="label label-danger">Q</span> What are the different forms of political polarization?</p>
-<p><span class="label label-success">A</span> Political polarization manifests in several forms:</p>
-<ul>
-<li><strong>Ideological Polarization:</strong> This involves the divergence of political attitudes toward extreme ideological ends.</li>
-<li><strong>Partisan Polarization:</strong> This refers to the growing divide and loyalty strictly along party lines.</li>
-<li><strong>Affective Polarization:</strong> This pertains to the increasing negative feelings and hostility between members of different political groups.<br>These various forms of polarization significantly influence public discourse, policy-making, and voter behavior.</li>
-</ul>
-<p><span class="label label-danger">Q</span> Can you elaborate on Ideological, Partisan, and Affective Polarization?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Ideological Polarization:</strong> Represents the widening gap in political beliefs and values, leading individuals and groups to adopt more extreme positions (Pew Research Center, 2014).</li>
-<li><strong>Partisan Polarization:</strong> Denotes the intensifying allegiance to one’s political party, often resulting in decreased willingness to compromise across party lines.</li>
-<li><strong>Affective Polarization:</strong> Involves deep-seated emotional divisions, where individuals harbor strong negative feelings toward members of opposing parties (Iyengar &amp; Westwood, 2015).</li>
-</ul>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/roadmap.jpeg" alt="Roadmap Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> Why is understanding these types of polarization important?</p>
-<p><span class="label label-success">A</span> Understanding these types of polarization is crucial for accurately interpreting political behaviors and trends. It helps in developing strategies to bridge divides, promote constructive dialogue, and foster a more cohesive political environment (Fiorina &amp; Abrams, 2008).</p>
-<p><span class="label label-danger">Q</span> How does the <code>POLITICS</code> tool address the complexities of political polarization?</p>
-<p><span class="label label-success">A</span> The <code>POLITICS</code> tool addresses these complexities by dynamically measuring politicians’ stances using advanced statistical modeling methods, particularly <code>Variational Autoencoders</code>. This approach quantifies political leanings objectively, enabling clearer insights into individual positions and the overall landscape of political polarization.</p>
-<p><span class="label label-danger">Q</span> What are the benefits of using <code>Variational Autoencoders</code> in this context?</p>
-<p><span class="label label-success">A</span> Variational Autoencoders (VAEs) are beneficial because they can uncover latent structures within complex datasets without the need for labeled data. In the context of political analysis, VAEs can identify underlying ideological dimensions and distinguish between different political affiliations and topics through unsupervised learning methods.</p>
-<p><span class="label label-danger">Q</span> How does the method employed by the <code>POLITICS</code> tool function?</p>
-<p><span class="label label-success">A</span> The method functions through two primary steps:</p>
-<ol>
-<li><strong>Projection onto a One-Dimensional Space:</strong> It projects an author’s political stance onto a one-dimensional ideological spectrum, identifying their position based on the topics they discuss.</li>
-<li><strong>Unsupervised Separation:</strong> Without relying on predefined labels or political information, the tool can separate authors according to their party affiliations and relevant politicized topics by analyzing patterns and structures within the data.</li>
-</ol>
-<p><span class="label label-danger">Q</span> What impact does this approach have on public understanding and the voting process?</p>
-<p><span class="label label-success">A</span> This approach simplifies the understanding of complex political information, making it more accessible to the general public. By providing clear and objective insights into candidates’ political leanings, it facilitates more informed decision-making during elections and contributes to a more transparent and accountable political process.</p>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/method.png" alt="Methodology Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> What are some key references that support the development of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Chilton, Paul.</strong> <em>Analyzing Political Discourse: Theory and Practice</em>. Routledge, 2004.</li>
-<li><strong>van Dijk, Teun A.</strong> <em>Ideology and Discourse: A Multidisciplinary Introduction</em>. Pompeu Fabra University, 2000.</li>
-<li><strong>King, Gary.</strong> <em>How Not to Lie with Statistics: Avoiding Common Mistakes in Quantitative Political Science</em>. American Journal of Political Science, 2013.</li>
-<li><strong>Blei, David M., Alp Kucukelbir, and Jon D. McAuliffe.</strong> <em>Variational Inference: A Review for Statisticians</em>. Journal of the American Statistical Association, 2017.</li>
-</ul>
-<hr>
-<p>This structured Q&amp;A format aims to present the information in an engaging and easily digestible manner, facilitating better understanding and retention of the key concepts related to measuring political subjectivity and polarization.</p>
-</div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  
-</div>
-
-<div class="other-posts">
-  <h3></h3>
-</div>
-
-
-
-
+	  <div class="page-header">		
+  <h1><a class="brand" href="/nlp-docs/">POLITICS Docs</a><span class="split"></span><span class="title">Types of Polarization</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2024-08-21</span></h1>
+</div>		
 
 <div class="row page">
+  <!-- cols -->	
+  
+  
+
+  
 	<div class="col-md-12">
-        <!-- <p> </p> -->
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="search notes..." class="st-search-input st-default-search-input form-control" style="margin-bottom:1em"/>
-    <div id="local-search-result"></div>
-        <!-- <div id="local-search-result"></div> -->
-		<div class="panel-group" id="notebook">
+	  
+
+	  <!-- content -->
+	  <p>The Potential Types of Polarizations in a Socio-Political setting.</p>
+<p>To measure subjectivity and opinions, we need to understand the importance and definitions of various polarizations in politics, sociology, and culture.</p>
+<hr>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Understanding the importance and definitions of various forms of polarization is crucial for measuring subjectivity and opinions in politics, sociology, and culture. Polarization can lead to increased conflict and division within societies, making it an important phenomenon to study and address.</p>
+<h3 id="Types-of-Polarization"><a href="#Types-of-Polarization" class="headerlink" title="Types of Polarization"></a>Types of Polarization</h3><p><strong>Ideological Polarization</strong></p>
+<ul>
+<li><p><strong>Definition</strong>: Ideological polarization refers to the growing divide in political beliefs and values between different groups, usually represented on a left-right spectrum.</p>
+</li>
+<li><p><strong>Analysis</strong>:</p>
+<ul>
+<li><strong>Manifestation</strong>: People with extreme left or right beliefs become more numerous, while those with centrist views become less common.</li>
+<li><strong>Impact</strong>: This can lead to political gridlock, as finding common ground becomes more difficult.</li>
+<li><strong>Example</strong>: In the US, ideological polarization is evident in the strong divide between conservative Republicans and liberal Democrats.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Affective Polarization</strong></p>
+<ul>
+<li><p><strong>Definition</strong>: Affective polarization is the phenomenon where people not only disagree on issues but also hold negative emotions towards those with opposing views.</p>
+</li>
+<li><p><strong>Analysis</strong>:</p>
+<ul>
+<li><strong>Manifestation</strong>: Increased hostility and distrust between groups, leading to social fragmentation.</li>
+<li><strong>Impact</strong>: It can hinder productive political discourse and cooperation.</li>
+<li><strong>Example</strong>: Studies showing that members of one political party view the other party’s members with increasing animosity.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Social Polarization</strong></p>
+<ul>
+<li><p><strong>Definition</strong>: Social polarization occurs when society divides into distinct social groups based on socio-economic status, ethnicity, or other demographic factors.</p>
+</li>
+<li><p><strong>Analysis</strong>:</p>
+<ul>
+<li><strong>Manifestation</strong>: Different groups lead separate lives with little interaction, reinforcing stereotypes and biases.</li>
+<li><strong>Impact</strong>: This segregation can exacerbate inequality and social tension.</li>
+<li><strong>Example</strong>: Urban areas in many countries are segregated by income or race, leading to isolated communities.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Cultural Polarization</strong></p>
+<ul>
+<li><p><strong>Definition</strong>: Cultural polarization refers to the division of society into groups with distinct cultural identities, values, and practices.</p>
+</li>
+<li><p><strong>Analysis</strong>:</p>
+<ul>
+<li><strong>Manifestation</strong>: Differing cultural values can lead to conflicts over national identity and social policies.</li>
+<li><strong>Impact</strong>: It can create challenges in integrating diverse groups within a single national framework.</li>
+<li><strong>Example</strong>: Debates over the role of religion in public life or policies on immigration.</li>
+</ul>
+</li>
+</ul>
+<h3 id="Measuring-Polarization"><a href="#Measuring-Polarization" class="headerlink" title="Measuring Polarization"></a>Measuring Polarization</h3><p><strong>Surveys and Polls</strong></p>
+<ul>
+<li><strong>Method</strong>: Collect data on individuals’ attitudes and beliefs through questionnaires.</li>
+<li><strong>Analysis</strong>: Determine the extent of polarization by examining the spread and extremity of opinions on key issues.</li>
+<li><strong>Example</strong>: Conducting nationwide surveys on attitudes towards climate change or healthcare reform.</li>
+</ul>
+<p><strong>Social Media Analysis</strong></p>
+<ul>
+<li><strong>Method</strong>: Analyze social media data to understand the distribution and intensity of opinions.</li>
+<li><strong>Analysis</strong>: Use natural language processing (NLP) techniques to gauge sentiment and emotional tone in social media posts.</li>
+<li><strong>Example</strong>: Using Twitter data to track real-time political sentiment during an election cycle.</li>
+</ul>
+<p><strong>Voting Behavior</strong></p>
+<ul>
+<li><strong>Method</strong>: Examine electoral data to identify patterns and shifts in voting.</li>
+<li><strong>Analysis</strong>: Assess how polarized voting has become by looking at the margins of victory and voter turnout.</li>
+<li><strong>Example</strong>: Analyzing voting data from swing states to see how polarized they have become over successive elections.</li>
+</ul>
+<p><strong>Media Content Analysis</strong></p>
+<ul>
+<li><strong>Method</strong>: Analyze the content of media publications to understand how issues are framed.</li>
+<li><strong>Analysis</strong>: Identify biases and differences in coverage that contribute to polarization.</li>
+<li><strong>Example</strong>: Comparing how different news outlets cover the same political event.</li>
+</ul>
+<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><p>Polarization in its various forms can have significant implications for society. By measuring and understanding these different types of polarization, we can better address the challenges they pose. Each method of measurement—surveys, social media analysis, voting behavior, and media content analysis—provides unique insights into the nature and extent of polarization. Effective strategies to mitigate polarization require a comprehensive approach, incorporating insights from multiple sources and perspectives.</p>
+<hr>
+<h3 id="Expanded-Details-and-Examples"><a href="#Expanded-Details-and-Examples" class="headerlink" title="Expanded Details and Examples"></a>Expanded Details and Examples</h3><p>To delve deeper into each concept, let’s provide more detailed examples and explanations:</p>
+<p><strong>Ideological Polarization</strong></p>
+<ul>
+<li><strong>Detailed Example</strong>: A study might use survey data to track changes in political beliefs over time. By asking respondents to place themselves on a political spectrum from very liberal to very conservative, researchers can observe shifts towards more extreme positions. This data can be visualized using histograms or density plots to show the concentration of political beliefs.</li>
+<li><strong>Code Example</strong>:</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="comment"># Sample data</span></span><br><span class="line">data = &#123;<span class="string">&#x27;Political_Belief&#x27;</span>: [<span class="string">&#x27;Very Liberal&#x27;</span>, <span class="string">&#x27;Liberal&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>,</span><br><span class="line"><span class="string">&#x27;Conservative&#x27;</span>, <span class="string">&#x27;Very Conservative&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;Count_2000&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">50</span>, <span class="number">15</span>, <span class="number">5</span>],</span><br><span class="line">        <span class="string">&#x27;Count_2020&#x27;</span>: [<span class="number">5</span>, <span class="number">15</span>, <span class="number">30</span>, <span class="number">25</span>, <span class="number">25</span>]&#125;</span><br><span class="line"></span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line">df.set_index(<span class="string">&#x27;Political_Belief&#x27;</span>, inplace=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Plot</span></span><br><span class="line">df.plot(kind=<span class="string">&#x27;bar&#x27;</span>, figsize=(<span class="number">10</span>, <span class="number">6</span>))</span><br><span class="line">plt.title(<span class="string">&#x27;Shift in Political Beliefs Over Time&#x27;</span>)</span><br><span class="line">plt.xlabel(<span class="string">&#x27;Political Belief&#x27;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Count&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<p><strong>Affective Polarization</strong></p>
+<ul>
+<li><strong>Detailed Example</strong>: Affective polarization can be measured through surveys that ask respondents about their feelings towards members of their own political party versus the opposing party. Questions might include levels of trust, respect, and perceived threats. These responses can be analyzed to show the emotional distance between groups.</li>
+<li><strong>Code Example</strong>:</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># Sample data</span></span><br><span class="line">groups = [<span class="string">&#x27;Own Party&#x27;</span>, <span class="string">&#x27;Opposing Party&#x27;</span>]</span><br><span class="line">feelings = [<span class="number">80</span>, <span class="number">20</span>]  <span class="comment"># Average positive feelings towards own party vs opposing party</span></span><br><span class="line"></span><br><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.bar(groups, feelings, color=[<span class="string">&#x27;blue&#x27;</span>, <span class="string">&#x27;red&#x27;</span>])</span><br><span class="line">ax.set_ylabel(<span class="string">&#x27;Average Positive Feelings&#x27;</span>)</span><br><span class="line">ax.set_title(<span class="string">&#x27;Affective Polarization&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<p><strong>Social Polarization</strong></p>
+<ul>
+<li><strong>Detailed Example</strong>: Social polarization can be examined by analyzing demographic data to identify patterns of segregation. For example, researchers might use census data to explore how different income or ethnic groups are distributed across neighborhoods.</li>
+<li><strong>Code Example</strong>:</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> geopandas <span class="keyword">as</span> gpd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># Load sample data (assuming a GeoDataFrame with demographic info)</span></span><br><span class="line">gdf = gpd.read_file(<span class="string">&#x27;path_to_census_data.shp&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Plot</span></span><br><span class="line">fig, ax = plt.subplots(<span class="number">1</span>, <span class="number">1</span>, figsize=(<span class="number">10</span>, <span class="number">10</span>))</span><br><span class="line">gdf.plot(column=<span class="string">&#x27;income_level&#x27;</span>, ax=ax, legend=<span class="literal">True</span>, legend_kwds=&#123;<span class="string">&#x27;label&#x27;</span>: <span class="string">&quot;Income Level&quot;</span>&#125;)</span><br><span class="line">plt.title(<span class="string">&#x27;Income Segregation in Urban Areas&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li><strong>Cultural Polarization</strong></li>
+</ol>
+<ul>
+<li><strong>Detailed Example</strong>: Cultural polarization can be studied by examining how different cultural practices and values are distributed within a population. Surveys or focus groups might be used to gather data on attitudes towards cultural symbols, language use, or religious practices.</li>
+<li><strong>Code Example</strong>:</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># Sample data</span></span><br><span class="line">cultural_values = [<span class="string">&#x27;Traditional&#x27;</span>, <span class="string">&#x27;Modern&#x27;</span>, <span class="string">&#x27;Mixed&#x27;</span>]</span><br><span class="line">counts = [<span class="number">30</span>, <span class="number">50</span>, <span class="number">20</span>]</span><br><span class="line"></span><br><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.pie(counts, labels=cultural_values, autopct=<span class="string">&#x27;%1.1f%%&#x27;</span>)</span><br><span class="line">ax.set_title(<span class="string">&#x27;Cultural Values Distribution&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>Understanding and measuring polarization is crucial for addressing its impacts on society. By using various methods such as surveys, social media analysis, voting behavior, and media content analysis, researchers can gain a comprehensive understanding of the different forms of polarization. This knowledge is essential for developing strategies to mitigate the negative effects of polarization and promote social cohesion.</p>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Frameworks">
-						<i class="fa fa-folder"></i> Frameworks
-				</div>
-				
-				    <div id="Frameworks" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_ideals/"></a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/economics/">Economics in Politics</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/electioneering/">Intro To Electioneering</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/system-design/">Political System Design</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/interest-groups/">Advocacy and Backers</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/non-profits/">Religion &amp; Non-profits</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/poli-action-comm/">Political Action Comm.</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/24/open-secret/">The Open Secret</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/25/place-holder/"></a></li>
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Ideals">
-						<i class="fa fa-folder"></i> Ideals
-				</div>
-				
-				    <div id="Ideals" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_fw/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/polarization/">Types of Polarization</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/identity-politics/">Intro to Identity Theory</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/intersectionality/">Social Intersectionality</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/symbols-ideologies/">Symbols And Ideologies</a></li>
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Techniques">
-						<i class="fa fa-folder"></i> Techniques
-				</div>
-				
-				    <div id="Techniques" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_techniques/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/political-rhetoric/">Intro to Political Lingos</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/applied-math/">Math in Social Sciences</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/divergence/">Measuring Divergence</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/logical-consistency/">The Logical Consistency</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
 			
 			
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div><!-- accordion -->
-	</div>
+		
+	
+		
+	
+	
+	
+		<li class="prev"><a href="/nlp-docs/2024/08/21/identity-politics/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/nlp-docs/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/nlp-docs/2024/07/22/placeholder_fw/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
 </div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
 
 
 	</div>

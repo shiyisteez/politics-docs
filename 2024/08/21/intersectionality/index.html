@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>intro | POLITICS Docs</title>
+  <title>Social Intersectionality | POLITICS Docs</title>
   <meta name="author" content="Shiyi S">
+  
+  <meta name="description" content="Understanding Social Intersectionality and Its Importance to Politics
+Social intersectionality is a critical theoretical framework that examines how v">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Social Intersectionality"/>
   <meta property="og:site_name" content="POLITICS Docs"/>
 
   
@@ -72,391 +75,110 @@
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
 	<div class="content">
-	  <div class="page-header">
-  <h1><a class="brand" href="#">POLITICS Docs</a></h1>
-</div>
-
-<div class="intro-posts">
-
-  
-    <div class="post">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"><h2 id="Measuring-Political-Subjectivity-And-Polarization"><a href="#Measuring-Political-Subjectivity-And-Polarization" class="headerlink" title=" Measuring Political Subjectivity And Polarization"></a><span id="title-politics" style="margin-bottom: 10px"> Measuring Political Subjectivity And Polarization</span></h2><p></p>
-
-
-<p>The <code>POLITICS</code> tool is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates in federal elections.</p>
-<p><span class="label label-danger">Q</span> What is the primary purpose of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span> The primary purpose of the <code>POLITICS</code> tool is to offer voters a clear and objective understanding of a candidate’s political stance by utilizing quantitative data and advanced analytical methods. This assists voters in making informed decisions during federal elections.</p>
-<p><span class="label label-danger">Q</span> Why is deciphering political discourse often challenging?</p>
-<p><span class="label label-success">A</span> Political discourse can be exceedingly complex and difficult to interpret due to its nuanced and layered nature. Human interpretation is frequently influenced by personal biases and subjectivity, as highlighted by Chilton (2004) and van Dijk (2000), making it challenging to attain an unbiased understanding of political statements and positions.</p>
-<p><span class="label label-danger">Q</span> What are the different forms of political polarization?</p>
-<p><span class="label label-success">A</span> Political polarization manifests in several forms:</p>
-<ul>
-<li><strong>Ideological Polarization:</strong> This involves the divergence of political attitudes toward extreme ideological ends.</li>
-<li><strong>Partisan Polarization:</strong> This refers to the growing divide and loyalty strictly along party lines.</li>
-<li><strong>Affective Polarization:</strong> This pertains to the increasing negative feelings and hostility between members of different political groups.<br>These various forms of polarization significantly influence public discourse, policy-making, and voter behavior.</li>
-</ul>
-<p><span class="label label-danger">Q</span> Can you elaborate on Ideological, Partisan, and Affective Polarization?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Ideological Polarization:</strong> Represents the widening gap in political beliefs and values, leading individuals and groups to adopt more extreme positions (Pew Research Center, 2014).</li>
-<li><strong>Partisan Polarization:</strong> Denotes the intensifying allegiance to one’s political party, often resulting in decreased willingness to compromise across party lines.</li>
-<li><strong>Affective Polarization:</strong> Involves deep-seated emotional divisions, where individuals harbor strong negative feelings toward members of opposing parties (Iyengar &amp; Westwood, 2015).</li>
-</ul>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/roadmap.jpeg" alt="Roadmap Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> Why is understanding these types of polarization important?</p>
-<p><span class="label label-success">A</span> Understanding these types of polarization is crucial for accurately interpreting political behaviors and trends. It helps in developing strategies to bridge divides, promote constructive dialogue, and foster a more cohesive political environment (Fiorina &amp; Abrams, 2008).</p>
-<p><span class="label label-danger">Q</span> How does the <code>POLITICS</code> tool address the complexities of political polarization?</p>
-<p><span class="label label-success">A</span> The <code>POLITICS</code> tool addresses these complexities by dynamically measuring politicians’ stances using advanced statistical modeling methods, particularly <code>Variational Autoencoders</code>. This approach quantifies political leanings objectively, enabling clearer insights into individual positions and the overall landscape of political polarization.</p>
-<p><span class="label label-danger">Q</span> What are the benefits of using <code>Variational Autoencoders</code> in this context?</p>
-<p><span class="label label-success">A</span> Variational Autoencoders (VAEs) are beneficial because they can uncover latent structures within complex datasets without the need for labeled data. In the context of political analysis, VAEs can identify underlying ideological dimensions and distinguish between different political affiliations and topics through unsupervised learning methods.</p>
-<p><span class="label label-danger">Q</span> How does the method employed by the <code>POLITICS</code> tool function?</p>
-<p><span class="label label-success">A</span> The method functions through two primary steps:</p>
-<ol>
-<li><strong>Projection onto a One-Dimensional Space:</strong> It projects an author’s political stance onto a one-dimensional ideological spectrum, identifying their position based on the topics they discuss.</li>
-<li><strong>Unsupervised Separation:</strong> Without relying on predefined labels or political information, the tool can separate authors according to their party affiliations and relevant politicized topics by analyzing patterns and structures within the data.</li>
-</ol>
-<p><span class="label label-danger">Q</span> What impact does this approach have on public understanding and the voting process?</p>
-<p><span class="label label-success">A</span> This approach simplifies the understanding of complex political information, making it more accessible to the general public. By providing clear and objective insights into candidates’ political leanings, it facilitates more informed decision-making during elections and contributes to a more transparent and accountable political process.</p>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/method.png" alt="Methodology Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> What are some key references that support the development of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Chilton, Paul.</strong> <em>Analyzing Political Discourse: Theory and Practice</em>. Routledge, 2004.</li>
-<li><strong>van Dijk, Teun A.</strong> <em>Ideology and Discourse: A Multidisciplinary Introduction</em>. Pompeu Fabra University, 2000.</li>
-<li><strong>King, Gary.</strong> <em>How Not to Lie with Statistics: Avoiding Common Mistakes in Quantitative Political Science</em>. American Journal of Political Science, 2013.</li>
-<li><strong>Blei, David M., Alp Kucukelbir, and Jon D. McAuliffe.</strong> <em>Variational Inference: A Review for Statisticians</em>. Journal of the American Statistical Association, 2017.</li>
-</ul>
-<hr>
-<p>This structured Q&amp;A format aims to present the information in an engaging and easily digestible manner, facilitating better understanding and retention of the key concepts related to measuring political subjectivity and polarization.</p>
-</div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  
-</div>
-
-<div class="other-posts">
-  <h3></h3>
-</div>
-
-
-
-
+	  <div class="page-header">		
+  <h1><a class="brand" href="/nlp-docs/">POLITICS Docs</a><span class="split"></span><span class="title">Social Intersectionality</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2024-08-21</span></h1>
+</div>		
 
 <div class="row page">
+  <!-- cols -->	
+  
+  
+
+  
 	<div class="col-md-12">
-        <!-- <p> </p> -->
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="search notes..." class="st-search-input st-default-search-input form-control" style="margin-bottom:1em"/>
-    <div id="local-search-result"></div>
-        <!-- <div id="local-search-result"></div> -->
-		<div class="panel-group" id="notebook">
+	  
+
+	  <!-- content -->
+	  <p>Understanding Social Intersectionality and Its Importance to Politics</p>
+<p>Social intersectionality is a critical theoretical framework that examines how various social identities, such as race, gender, class, and sexuality, intersect and interact to shape individual and collective experiences of privilege and oppression. Originally coined by legal scholar Kimberlé Crenshaw in 1989, the concept highlights that people’s identities are not single-faceted but are complex and multifaceted, with overlapping identities contributing to unique social experiences.</p>
+<p><strong>Key Aspects of Social Intersectionality:</strong></p>
+<ol>
+<li><strong>Multidimensional Identity:</strong> Intersectionality posits that individuals cannot be understood solely through one dimension of their identity, such as race or gender, but rather through the intersections of multiple identities. For instance, the experiences of a Black woman are shaped both by her race and her gender, among other factors.</li>
+<li><strong>Systemic Oppression:</strong> The framework emphasizes how systems of oppression, such as racism, sexism, classism, and homophobia, are interconnected and can compound the effects of discrimination. This intersectionality creates specific challenges for individuals who occupy multiple marginalized identities.</li>
+<li><strong>Unique Experiences:</strong> Intersectionality recognizes that the overlapping identities of individuals lead to unique experiences that cannot be fully understood by looking at each identity in isolation. For example, the challenges faced by an LGBTQ+ person of color may be different from those faced by white LGBTQ+ individuals or heterosexual people of color.</li>
+<li><strong>Policy and Advocacy:</strong> Intersectionality calls for a more nuanced approach in social justice, policy-making, and activism. It urges that solutions to inequality and discrimination consider the full spectrum of individuals’ identities to ensure inclusivity and fairness.</li>
+</ol>
+<p>Intersectionality has become an essential concept in fields such as sociology, feminist theory, critical race theory, and public policy, providing a framework for analyzing and addressing complex social inequalities.</p>
+<p>Understanding social intersectionality allows for more effective advocacy and policymaking that takes into account the diverse and interconnected identities within society.</p>
+<p>For further reading and a more in-depth understanding, scholars such as Kimberlé Crenshaw, Patricia Hill Collins, and bell hooks offer extensive insights into the theory and its applications in various social contexts.</p>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Frameworks">
-						<i class="fa fa-folder"></i> Frameworks
-				</div>
-				
-				    <div id="Frameworks" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_ideals/"></a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/economics/">Economics in Politics</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/electioneering/">Intro To Electioneering</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/system-design/">Political System Design</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/interest-groups/">Advocacy and Backers</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/non-profits/">Religion &amp; Non-profits</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/poli-action-comm/">Political Action Comm.</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/24/open-secret/">The Open Secret</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/25/place-holder/"></a></li>
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Ideals">
-						<i class="fa fa-folder"></i> Ideals
-				</div>
-				
-				    <div id="Ideals" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_fw/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/polarization/">Types of Polarization</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/identity-politics/">Intro to Identity Theory</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/intersectionality/">Social Intersectionality</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/symbols-ideologies/">Symbols And Ideologies</a></li>
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Techniques">
-						<i class="fa fa-folder"></i> Techniques
-				</div>
-				
-				    <div id="Techniques" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_techniques/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/political-rhetoric/">Intro to Political Lingos</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/applied-math/">Math in Social Sciences</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/divergence/">Measuring Divergence</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/logical-consistency/">The Logical Consistency</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
 			
 			
 			
+		
+	
+		
+	
+		
+	
+		
 			
+		
+	
+		
+	
+		
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div><!-- accordion -->
-	</div>
+		
+	
+		
+	
+		
+	
+	
+	
+		<li class="prev"><a href="/nlp-docs/2024/08/21/symbols-ideologies/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/nlp-docs/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/nlp-docs/2024/08/21/identity-politics/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
 </div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
 
 
 	</div>

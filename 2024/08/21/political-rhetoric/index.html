@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>intro | POLITICS Docs</title>
+  <title>Intro to Political Lingos | POLITICS Docs</title>
   <meta name="author" content="Shiyi S">
+  
+  <meta name="description" content="Comprehensive Introduction to Political Jargon and Language
+Political jargon and language lingo refer to the specialized terms and expressions commonl">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Intro to Political Lingos"/>
   <meta property="og:site_name" content="POLITICS Docs"/>
 
   
@@ -72,391 +75,240 @@
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
 	<div class="content">
-	  <div class="page-header">
-  <h1><a class="brand" href="#">POLITICS Docs</a></h1>
-</div>
-
-<div class="intro-posts">
-
-  
-    <div class="post">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"><h2 id="Measuring-Political-Subjectivity-And-Polarization"><a href="#Measuring-Political-Subjectivity-And-Polarization" class="headerlink" title=" Measuring Political Subjectivity And Polarization"></a><span id="title-politics" style="margin-bottom: 10px"> Measuring Political Subjectivity And Polarization</span></h2><p></p>
-
-
-<p>The <code>POLITICS</code> tool is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates in federal elections.</p>
-<p><span class="label label-danger">Q</span> What is the primary purpose of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span> The primary purpose of the <code>POLITICS</code> tool is to offer voters a clear and objective understanding of a candidate’s political stance by utilizing quantitative data and advanced analytical methods. This assists voters in making informed decisions during federal elections.</p>
-<p><span class="label label-danger">Q</span> Why is deciphering political discourse often challenging?</p>
-<p><span class="label label-success">A</span> Political discourse can be exceedingly complex and difficult to interpret due to its nuanced and layered nature. Human interpretation is frequently influenced by personal biases and subjectivity, as highlighted by Chilton (2004) and van Dijk (2000), making it challenging to attain an unbiased understanding of political statements and positions.</p>
-<p><span class="label label-danger">Q</span> What are the different forms of political polarization?</p>
-<p><span class="label label-success">A</span> Political polarization manifests in several forms:</p>
-<ul>
-<li><strong>Ideological Polarization:</strong> This involves the divergence of political attitudes toward extreme ideological ends.</li>
-<li><strong>Partisan Polarization:</strong> This refers to the growing divide and loyalty strictly along party lines.</li>
-<li><strong>Affective Polarization:</strong> This pertains to the increasing negative feelings and hostility between members of different political groups.<br>These various forms of polarization significantly influence public discourse, policy-making, and voter behavior.</li>
-</ul>
-<p><span class="label label-danger">Q</span> Can you elaborate on Ideological, Partisan, and Affective Polarization?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Ideological Polarization:</strong> Represents the widening gap in political beliefs and values, leading individuals and groups to adopt more extreme positions (Pew Research Center, 2014).</li>
-<li><strong>Partisan Polarization:</strong> Denotes the intensifying allegiance to one’s political party, often resulting in decreased willingness to compromise across party lines.</li>
-<li><strong>Affective Polarization:</strong> Involves deep-seated emotional divisions, where individuals harbor strong negative feelings toward members of opposing parties (Iyengar &amp; Westwood, 2015).</li>
-</ul>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/roadmap.jpeg" alt="Roadmap Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> Why is understanding these types of polarization important?</p>
-<p><span class="label label-success">A</span> Understanding these types of polarization is crucial for accurately interpreting political behaviors and trends. It helps in developing strategies to bridge divides, promote constructive dialogue, and foster a more cohesive political environment (Fiorina &amp; Abrams, 2008).</p>
-<p><span class="label label-danger">Q</span> How does the <code>POLITICS</code> tool address the complexities of political polarization?</p>
-<p><span class="label label-success">A</span> The <code>POLITICS</code> tool addresses these complexities by dynamically measuring politicians’ stances using advanced statistical modeling methods, particularly <code>Variational Autoencoders</code>. This approach quantifies political leanings objectively, enabling clearer insights into individual positions and the overall landscape of political polarization.</p>
-<p><span class="label label-danger">Q</span> What are the benefits of using <code>Variational Autoencoders</code> in this context?</p>
-<p><span class="label label-success">A</span> Variational Autoencoders (VAEs) are beneficial because they can uncover latent structures within complex datasets without the need for labeled data. In the context of political analysis, VAEs can identify underlying ideological dimensions and distinguish between different political affiliations and topics through unsupervised learning methods.</p>
-<p><span class="label label-danger">Q</span> How does the method employed by the <code>POLITICS</code> tool function?</p>
-<p><span class="label label-success">A</span> The method functions through two primary steps:</p>
-<ol>
-<li><strong>Projection onto a One-Dimensional Space:</strong> It projects an author’s political stance onto a one-dimensional ideological spectrum, identifying their position based on the topics they discuss.</li>
-<li><strong>Unsupervised Separation:</strong> Without relying on predefined labels or political information, the tool can separate authors according to their party affiliations and relevant politicized topics by analyzing patterns and structures within the data.</li>
-</ol>
-<p><span class="label label-danger">Q</span> What impact does this approach have on public understanding and the voting process?</p>
-<p><span class="label label-success">A</span> This approach simplifies the understanding of complex political information, making it more accessible to the general public. By providing clear and objective insights into candidates’ political leanings, it facilitates more informed decision-making during elections and contributes to a more transparent and accountable political process.</p>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/method.png" alt="Methodology Illustration" width="800" height="600">
-</div>
-
-<p><span class="label label-danger">Q</span> What are some key references that support the development of the <code>POLITICS</code> tool?</p>
-<p><span class="label label-success">A</span></p>
-<ul>
-<li><strong>Chilton, Paul.</strong> <em>Analyzing Political Discourse: Theory and Practice</em>. Routledge, 2004.</li>
-<li><strong>van Dijk, Teun A.</strong> <em>Ideology and Discourse: A Multidisciplinary Introduction</em>. Pompeu Fabra University, 2000.</li>
-<li><strong>King, Gary.</strong> <em>How Not to Lie with Statistics: Avoiding Common Mistakes in Quantitative Political Science</em>. American Journal of Political Science, 2013.</li>
-<li><strong>Blei, David M., Alp Kucukelbir, and Jon D. McAuliffe.</strong> <em>Variational Inference: A Review for Statisticians</em>. Journal of the American Statistical Association, 2017.</li>
-</ul>
-<hr>
-<p>This structured Q&amp;A format aims to present the information in an engaging and easily digestible manner, facilitating better understanding and retention of the key concepts related to measuring political subjectivity and polarization.</p>
-</div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-          <article>
-            <h1 class="post-title"><a href=""></a></h1>
-            <div class="post-content"></div>
-          </article>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  
-</div>
-
-<div class="other-posts">
-  <h3></h3>
-</div>
-
-
-
-
+	  <div class="page-header">		
+  <h1><a class="brand" href="/nlp-docs/">POLITICS Docs</a><span class="split"></span><span class="title">Intro to Political Lingos</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2024-08-21</span></h1>
+</div>		
 
 <div class="row page">
+  <!-- cols -->	
+  
+  
+
+  
 	<div class="col-md-12">
-        <!-- <p> </p> -->
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="search notes..." class="st-search-input st-default-search-input form-control" style="margin-bottom:1em"/>
-    <div id="local-search-result"></div>
-        <!-- <div id="local-search-result"></div> -->
-		<div class="panel-group" id="notebook">
+	  
+
+	  <!-- content -->
+	  <p>Comprehensive Introduction to Political Jargon and Language</p>
+<p><strong>Political jargon</strong> and <strong>language lingo</strong> refer to the specialized terms and expressions commonly used in political discourse. Understanding this terminology is essential for anyone interested in politics, as it helps to decipher the often complex and nuanced communication in this field.</p>
+<h3 id="Key-Political-Jargons-and-Language-Lingos"><a href="#Key-Political-Jargons-and-Language-Lingos" class="headerlink" title="Key Political Jargons and Language Lingos"></a><strong>Key Political Jargons and Language Lingos</strong></h3><ol>
+<li><p><strong>Left-wing&#x2F;Right-wing:</strong></p>
+<ul>
+<li><strong>Left-wing</strong> generally refers to political positions or activities that advocate for social equality, government intervention in the economy, and progressive reforms.</li>
+<li><strong>Right-wing</strong> refers to political positions or activities that emphasize tradition, free market principles, and a limited role for government.</li>
+</ul>
+</li>
+<li><p><strong>Bipartisan:</strong></p>
+<ul>
+<li>Involving or supported by two political parties, especially the major ones in a country. For example, a bipartisan bill is one that is supported by both major parties in a legislature.</li>
+</ul>
+</li>
+<li><p><strong>Gerrymandering:</strong></p>
+<ul>
+<li>The manipulation of electoral district boundaries to favor a particular party or group. It often results in oddly-shaped districts designed to increase political advantage.</li>
+</ul>
+</li>
+<li><p><strong>Filibuster:</strong></p>
+<ul>
+<li>A prolonged speech or series of speeches made to delay action in a legislative assembly, especially in the U.S. Senate.</li>
+</ul>
+</li>
+<li><p><strong>Incumbent:</strong></p>
+<ul>
+<li>A current officeholder who is seeking re-election.</li>
+</ul>
+</li>
+<li><p><strong>Grassroots Movement:</strong></p>
+<ul>
+<li>A movement driven by the constituents of a community, often beginning at the local level, and advocating for change from the bottom up.</li>
+</ul>
+</li>
+<li><p><strong>Lobbying:</strong></p>
+<ul>
+<li>The act of attempting to influence the decisions of government officials, usually by special interest groups or lobbyists.</li>
+</ul>
+</li>
+<li><p><strong>Populism:</strong></p>
+<ul>
+<li>A political approach that seeks to appeal to ordinary people who feel that their concerns are disregarded by established elite groups.</li>
+</ul>
+</li>
+<li><p><strong>Impeachment:</strong></p>
+<ul>
+<li>The process by which a legislative body levels charges against a government official as a means of removing them from office.</li>
+</ul>
+</li>
+<li><p><strong>Referendum:</strong></p>
+<ul>
+<li>A direct vote by the electorate on a specific proposal, often a change to the constitution or law.</li>
+</ul>
+</li>
+<li><p><strong>Political Action Committee (PAC):</strong></p>
+<ul>
+<li>An organization that raises money privately to influence elections or legislation, particularly at the federal level in the U.S.</li>
+</ul>
+</li>
+<li><p><strong>Spin:</strong></p>
+<ul>
+<li>The act of presenting information in a particular way to influence public perception, often used by politicians and their press teams.</li>
+</ul>
+</li>
+<li><p><strong>Whistleblower:</strong></p>
+<ul>
+<li>A person who exposes secretive information or activity within a private or public organization that is deemed illegal, unethical, or not correct.</li>
+</ul>
+</li>
+</ol>
+<h3 id="Understanding-Political-Language"><a href="#Understanding-Political-Language" class="headerlink" title="Understanding Political Language"></a><strong>Understanding Political Language</strong></h3><p>Political language is often loaded with connotations and can be used to persuade, rally support, or discredit opponents. Understanding the context and intended meaning behind these terms is crucial for accurately interpreting political communication.</p>
+<h3 id="Recommended-Resources"><a href="#Recommended-Resources" class="headerlink" title="Recommended Resources"></a><strong>Recommended Resources</strong></h3><ol>
+<li><p><strong>Books:</strong></p>
+<ul>
+<li><em>“Politics: A Very Short Introduction”</em> by Kenneth Minogue – A concise and accessible overview of key political concepts and terms.</li>
+<li><em>“Political Jargon: What It Means and How to Use It”</em> by William Safire – This book provides definitions and explanations of common political terms.</li>
+<li><em>“The Language of Politics”</em> by Michael H. Cornfield – A deep dive into how language is used in political contexts.</li>
+</ul>
+</li>
+<li><p><strong>Websites:</strong></p>
+<ul>
+<li><strong><a target="_blank" rel="noopener" href="https://www.merriam-webster.com/words-at-play/words-about-politics-jargon">Merriam-Webster&#39;s Guide to Understanding Political Jargon</a>:</strong> A helpful online resource for understanding political terms and phrases.</li>
+<li><strong><a target="_blank" rel="noopener" href="https://www.economist.com/">The Economist&#39;s Glossary of Political Terms</a>:</strong> This provides clear definitions of political and economic terms frequently used in their articles.</li>
+<li><strong><a target="_blank" rel="noopener" href="https://www.bbc.co.uk/news/uk-politics-15302629">BBC&#39;s Guide to Political Jargon</a>:</strong> An informative resource explaining commonly used political language in the UK context.</li>
+</ul>
+</li>
+<li><p><strong>Online Courses:</strong></p>
+<ul>
+<li><strong>Coursera’s “Understanding Political Concepts”:</strong> This course helps you understand the foundational concepts of politics and the language used in political discussions.</li>
+<li><strong>edX’s “The Language of Politics”:</strong> An online course that explores the use of language in political discourse.</li>
+</ul>
+</li>
+</ol>
+<p>These resources should help you gain a solid understanding of political jargon and the nuances of political language.</p>
+<h3 id="Difference-Between-Political-Jargon-and-Political-Rhetoric"><a href="#Difference-Between-Political-Jargon-and-Political-Rhetoric" class="headerlink" title="Difference Between Political Jargon and Political Rhetoric"></a>Difference Between Political Jargon and Political Rhetoric</h3><p><strong>Political Jargon:</strong></p>
+<ul>
+<li><strong>Definition:</strong> Political jargon refers to the specialized language and terminology used within political contexts. These terms often have specific meanings that are understood by those who are familiar with politics or work within the field. Examples include terms like “filibuster,” “gerrymandering,” and “bipartisan.”</li>
+<li><strong>Purpose:</strong> The primary purpose of political jargon is to provide a precise and efficient way of communicating complex political concepts among politicians, analysts, and other insiders. It often helps convey ideas quickly within a specific group.</li>
+<li><strong>Usage:</strong> Political jargon is typically used in legislative, policy-making, and other formal political settings where detailed and technical communication is necessary.</li>
+</ul>
+<p><strong>Political Rhetoric:</strong></p>
+<ul>
+<li><strong>Definition:</strong> Political rhetoric, on the other hand, refers to the art of using language effectively and persuasively in politics. It involves the use of persuasive techniques, such as emotional appeals, rhetorical devices, and strategic word choices, to influence public opinion, rally support, or discredit opponents.</li>
+<li><strong>Purpose:</strong> The main goal of political rhetoric is to persuade or motivate an audience. Politicians use rhetoric to shape public perception, inspire action, or justify policies. It is often used during speeches, debates, and campaigns.</li>
+<li><strong>Usage:</strong> Political rhetoric is more about the delivery and impact of the message rather than the specific terminology. It is used broadly in public communication, including speeches, advertisements, and debates, to connect with and influence the general public.</li>
+</ul>
+<h3 id="Key-Differences"><a href="#Key-Differences" class="headerlink" title="Key Differences:"></a>Key Differences:</h3><ol>
+<li><p><strong>Focus:</strong></p>
+<ul>
+<li>Political jargon focuses on specialized language that conveys specific meanings within a political context.</li>
+<li>Political rhetoric focuses on the art of persuasion and influencing public perception through language.</li>
+</ul>
+</li>
+<li><p><strong>Audience:</strong></p>
+<ul>
+<li>Political jargon is often used among politicians, policymakers, and analysts who share a common understanding of the terms.</li>
+<li>Political rhetoric is aimed at a broader audience, including voters, constituents, and the general public.</li>
+</ul>
+</li>
+<li><p><strong>Function:</strong></p>
+<ul>
+<li>Political jargon is functional and technical, used to communicate complex political ideas clearly and efficiently.</li>
+<li>Political rhetoric is strategic and persuasive, designed to sway opinions, inspire action, or achieve a specific political outcome.</li>
+</ul>
+</li>
+</ol>
+<h3 id="Recommended-Resources-to-Learn-More"><a href="#Recommended-Resources-to-Learn-More" class="headerlink" title="Recommended Resources to Learn More:"></a>Recommended Resources to Learn More:</h3><ol>
+<li><p><strong>Books:</strong></p>
+<ul>
+<li><em>“Rhetoric: A Very Short Introduction”</em> by Richard Toye – Provides an overview of rhetoric, its history, and its use in politics.</li>
+<li><em>“Political Jargon: What It Means and How to Use It”</em> by William Safire – Offers definitions and explanations of common political terms.</li>
+<li><em>“The Language of Politics: How Politicians Use Words”</em> by Michael H. Cornfield – Explores how political language shapes public perception and political outcomes.</li>
+</ul>
+</li>
+<li><p><strong>Websites:</strong></p>
+<ul>
+<li><strong><a target="_blank" rel="noopener" href="http://www.americanrhetoric.com/">American Rhetoric</a>:</strong> A resource for studying and analyzing famous political speeches and rhetoric.</li>
+<li><strong><a target="_blank" rel="noopener" href="https://www.merriam-webster.com/words-at-play/words-about-politics-jargon">Merriam-Webster&#39;s Guide to Political Jargon</a>:</strong> A helpful online resource for understanding political terms and phrases.</li>
+</ul>
+</li>
+</ol>
+<p>These resources will help you better understand the distinction between political jargon and rhetoric, as well as how each plays a role in the political landscape.</p>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Frameworks">
-						<i class="fa fa-folder"></i> Frameworks
-				</div>
-				
-				    <div id="Frameworks" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_ideals/"></a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/economics/">Economics in Politics</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/electioneering/">Intro To Electioneering</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/system-design/">Political System Design</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/interest-groups/">Advocacy and Backers</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/non-profits/">Religion &amp; Non-profits</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/poli-action-comm/">Political Action Comm.</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/24/open-secret/">The Open Secret</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/25/place-holder/"></a></li>
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Ideals">
-						<i class="fa fa-folder"></i> Ideals
-				</div>
-				
-				    <div id="Ideals" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_fw/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/polarization/">Types of Polarization</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/identity-politics/">Intro to Identity Theory</a></li>
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/intersectionality/">Social Intersectionality</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/symbols-ideologies/">Symbols And Ideologies</a></li>
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Techniques">
-						<i class="fa fa-folder"></i> Techniques
-				</div>
-				
-				    <div id="Techniques" class="panel-collapse collapse">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/07/22/placeholder_techniques/"></a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/political-rhetoric/">Intro to Political Lingos</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/applied-math/">Math in Social Sciences</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/divergence/">Measuring Divergence</a></li>
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/nlp-docs/2024/08/21/logical-consistency/">The Logical Consistency</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
 			
 			
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div><!-- accordion -->
-	</div>
+	
+	
+		<li class="prev"><a href="/nlp-docs/2024/08/21/divergence/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/nlp-docs/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/nlp-docs/2024/07/22/placeholder_techniques/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
 </div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
 
 
 	</div>
