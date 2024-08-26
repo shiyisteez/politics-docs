@@ -119,7 +119,8 @@ search:
   limit: 10000
 
 
-url: https://shiyis.github.io/politics-docs.git
+url: https://shiyis.github.io/
+root: /
 
 deploy:
   type: git

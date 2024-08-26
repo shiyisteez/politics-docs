@@ -42,7 +42,7 @@ These various forms of polarization significantly influence public discourse, po
 
 
 <div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/roadmap.jpeg" alt="Roadmap Illustration" width="800" height="600">
+    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/images/roadmap.jpeg" alt="Roadmap Illustration" width="auto" height="600">
 </div>
 
 <span class="label label-danger">Q</span> Why is understanding these types of polarization important?
@@ -69,7 +69,7 @@ These various forms of polarization significantly influence public discourse, po
 <span class="label label-success">A</span> This approach simplifies the understanding of complex political information, making it more accessible to the general public. By providing clear and objective insights into candidates' political leanings, it facilitates more informed decision-making during elections and contributes to a more transparent and accountable political process.
 
 <div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/assets/images/method.png" alt="Methodology Illustration" width="800" height="600">
+    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/images/method.png" alt="Methodology Illustration" width="auto" height="600">
 </div>
 
 <span class="label label-danger">Q</span> What are some key references that support the development of the `POLITICS` tool?
