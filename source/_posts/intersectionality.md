@@ -2,7 +2,7 @@
 title: Social Intersectionality
 nav_order: 3
 categories:
-  - Ideals
+  - Concepts
 ---
 
 

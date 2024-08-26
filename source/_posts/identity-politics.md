@@ -2,7 +2,7 @@
 title: Intro to Identity Theory
 nav_order: 1
 categories:
-  - Ideals
+  - Concepts
 ---
 
 Social Identity and Its Importance To Politics

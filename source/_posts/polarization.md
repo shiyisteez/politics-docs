@@ -2,7 +2,7 @@
 title: Types of Polarization
 nav_order: 3
 categories:
-  - Ideals
+  - Concepts
 ---
 The Potential Types of Polarizations in a Socio-Political setting.
 
