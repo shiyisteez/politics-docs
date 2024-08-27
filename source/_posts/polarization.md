@@ -4,12 +4,11 @@ nav_order: 3
 categories:
   - Concepts
 ---
-The Potential Types of Polarizations in a Socio-Political setting.
+
+### The Potential Types of Polarization In A Socio-Political Setting.
 
 
 To measure subjectivity and opinions, we need to understand the importance and definitions of various polarizations in politics, sociology, and culture.
-
----
 
 ### Introduction
 

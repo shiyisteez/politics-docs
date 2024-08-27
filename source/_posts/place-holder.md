@@ -40,11 +40,6 @@ These various forms of polarization significantly influence public discourse, po
 - **Partisan Polarization:** Denotes the intensifying allegiance to one's political party, often resulting in decreased willingness to compromise across party lines.
 - **Affective Polarization:** Involves deep-seated emotional divisions, where individuals harbor strong negative feelings toward members of opposing parties (Iyengar & Westwood, 2015).
 
-
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/images/roadmap.jpeg" alt="Roadmap Illustration" width="auto" height="600">
-</div>
-
 <span class="label label-danger">Q</span> Why is understanding these types of polarization important?
 
 <span class="label label-success">A</span> Understanding these types of polarization is crucial for accurately interpreting political behaviors and trends. It helps in developing strategies to bridge divides, promote constructive dialogue, and foster a more cohesive political environment (Fiorina & Abrams, 2008).
@@ -63,14 +58,13 @@ These various forms of polarization significantly influence public discourse, po
 1. **Projection onto a One-Dimensional Space:** It projects an author's political stance onto a one-dimensional ideological spectrum, identifying their position based on the topics they discuss.
 2. **Unsupervised Separation:** Without relying on predefined labels or political information, the tool can separate authors according to their party affiliations and relevant politicized topics by analyzing patterns and structures within the data.
 
+Please check this [link](https://raw.githubusercontent.com/shiyis/politics-docs/main/images/method.png) for a visual demonstration.
 
 <span class="label label-danger">Q</span> What impact does this approach have on public understanding and the voting process?
 
 <span class="label label-success">A</span> This approach simplifies the understanding of complex political information, making it more accessible to the general public. By providing clear and objective insights into candidates' political leanings, it facilitates more informed decision-making during elections and contributes to a more transparent and accountable political process.
 
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://raw.githubusercontent.com/shiyis/politics-docs/main/images/method.png" alt="Methodology Illustration" width="auto" height="600">
-</div>
+
 
 <span class="label label-danger">Q</span> What are some key references that support the development of the `POLITICS` tool?
 
