@@ -10,7 +10,7 @@ tags:
 
 
 
-## <span id="title-politics" style="margin-bottom: 10px"> Measuring Political Subjectivity And Polarization</span>
+## <p id="title-politics" style="margin-bottom: 15px; front-size: 20px; color: #363838"> 🔻 Measuring Political Subjectivity And Polarization</p>
 
 <p></p>
 
