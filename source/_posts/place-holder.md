@@ -10,12 +10,12 @@ tags:
 
 
 
-## <p id="title-politics" style="margin-bottom: 15px; front-size: 20px; color: #363838"> 🔻 Measuring Political Subjectivity And Polarization</p>
+## <p id="title-politics" style="margin-bottom: 10px; front-size: 20px; color: #363838"> 🔻 Measuring Political Subjectivity and Polarization</p>
 
 <p></p>
 
 
-The `POLITICS` tool is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates in federal elections.
+The `POLITICS` tool is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates for general elections.
 
 <span class="label label-danger">Q</span> What is the primary purpose of the `POLITICS` tool?
 
