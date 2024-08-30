@@ -6,7 +6,7 @@ categories:
 ---
 
 
-The Importance of Patronization and Interest Groups
+## 🔻 The Importance of Patronization and Interest Groups
 
 
 Here’s an expanded summary that includes the concepts of advocacy and backers along with interest groups and patronage:

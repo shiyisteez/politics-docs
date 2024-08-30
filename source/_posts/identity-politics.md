@@ -5,7 +5,7 @@ categories:
   - Concepts
 ---
 
-Social Identity and Its Importance To Politics
+## 🔻 Social Identity and Its Importance To Politics
 
 
 #### Social Identity

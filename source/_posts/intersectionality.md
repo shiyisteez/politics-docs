@@ -6,7 +6,7 @@ categories:
 ---
 
 
-Understanding Social Intersectionality and Its Importance to Politics
+## 🔻 Understanding Social Intersectionality and Its Importance to Politics
 
 
 Social intersectionality is a critical theoretical framework that examines how various social identities, such as race, gender, class, and sexuality, intersect and interact to shape individual and collective experiences of privilege and oppression. Originally coined by legal scholar Kimberlé Crenshaw in 1989, the concept highlights that people's identities are not single-faceted but are complex and multifaceted, with overlapping identities contributing to unique social experiences.

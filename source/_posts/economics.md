@@ -4,7 +4,8 @@ nav_order: 4
 categories:
   - Frameworks
 ---
-Economic Policies and Political Ideologies
+
+## 🔻 Economic Policies and Political Ideologies
 
 Economics plays a crucial role in politics, influencing the decisions and policies that shape a nation's governance and its citizens' lives. At its core, economics in politics is about the distribution of resources—how governments allocate funds, manage public goods, and regulate markets to achieve economic stability, growth, and social welfare.
 

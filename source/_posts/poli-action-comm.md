@@ -6,7 +6,7 @@ categories:
 ---
 
 
-More on Super PACs, Campaign Finances, And Independent Expenditures
+## 🔻 More on Super PACs, Campaign Finances, And Independent Expenditures
 
 `The Citizens United v. Federal Election Commission (2010)` decision had a significant impact on the formation of super PACs, leading to a proliferation of these entities and a dramatic increase in their influence on the political landscape.
 

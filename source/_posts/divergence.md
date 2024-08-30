@@ -5,7 +5,7 @@ categories:
   - Techniques
 ---
 
-## The Importance of Measuring Divergence in Social Science Research
+## 🔻 The Importance of Measuring Divergence in Social Science Research
 
 Measuring divergence is a critical tool in social and political science modeling because it allows researchers to quantify differences or changes in distributions, opinions, ideologies, or behaviors across different groups or over time. In the context of social and political sciences, divergence can be used to understand polarization, ideological shifts, social fragmentation, or the effectiveness of policy interventions. Here’s how measuring divergence is applied:
 

@@ -5,6 +5,8 @@ categories:
   - Frameworks
 ---
 
+## 🔻 Discussions on Political System Design
+
 involves creating and organizing the structures, processes, and rules by which a society governs itself. This concept encompasses the architecture of governance, including the division of powers, the formation of institutions, the electoral system, and the relationship between the state and its citizens. Designing a political system is about balancing various principles like democracy, justice, efficiency, and accountability to create a stable and functioning society.
 
 ### **Key Components of Political System Design**
