@@ -290,7 +290,7 @@
   }
 
 
-  
+
 }
 
 
@@ -411,4 +411,21 @@
 
 
 
+.label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px; /* Adjust space between the label and the text */
+}
 
+.align-text {
+    display: inline-block;
+    vertical-align: top;
+    text-indent: -9999px;
+    margin-left: -9999px;
+}
+
+p span.label + span {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -5px; /* Adjust space to align with the text */
+}

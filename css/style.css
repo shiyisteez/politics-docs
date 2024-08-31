@@ -212,7 +212,7 @@ blockquote ol,
 blockquote ul,
 blockquote li,
 .slogan {
-  font-family: 'Open Sans', "Helvetica Neue", '楷体', 'STKaiti', "Kai", "kaiti", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB";
+  font-family: 'Open Sans', "Helvetica Neue", 'STKaiti', "Kai", "kaiti", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB";
 }
 
 ol, ul {
@@ -511,4 +511,32 @@ em.search-keyword {
 
 .other-posts {
   margin: 1.55rem;
+}
+
+
+.qa-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Space between Q&A pairs */
+}
+
+
+.qa-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px; /* Space between Q&A items */
+}
+
+.label {
+    flex-shrink: 0; /* Prevents the label from shrinking */
+    margin-right: 5px; /* Space between the label and the text */
+    line-height: 1.5; /* Match the text's line height */
+}
+
+.qa-text {
+    flex-grow: 1; /* Allows the text to grow and wrap as needed */
+    max-width: 100%;
+    text-indent: 0;
+    padding-left: 10px;
+    margin-left: -5px; /* Pulls the second line to the left */
 }
