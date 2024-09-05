@@ -197,7 +197,7 @@
 
   .page-header h1 span.date {
     font-size: 18px;
-    position: static;
+    position: absolute;
 
   }
 
