@@ -57,6 +57,7 @@ body {
   background-repeat: repeat-x;
   background-position: 0 40px;
   padding-bottom: 70px;
+  font-family: 'Open sans', system-ui, inherit;
 }
 
 .content {
