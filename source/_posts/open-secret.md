@@ -1,5 +1,5 @@
 ---
-title: The Open Secrets
+title: Unveiling The Secrets
 nav_order: 1
 categories:
   - Frameworks
