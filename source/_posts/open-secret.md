@@ -1,5 +1,5 @@
 ---
-title: Unveiling The Secrets
+title: Spilling The Beans
 nav_order: 1
 categories:
   - Frameworks
