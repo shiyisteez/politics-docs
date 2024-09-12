@@ -20,7 +20,7 @@ tags:
 
   <div class="qa-item">
     <span class="label label-success">A</span>
-    <span class="qa-text">This project tries to experiment with creating a tool called <code>POLITICS</code>, which is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates for general elections. <p></p> The primary purpose of the <code>POLITICS</code> tool is to offer voters a clear and objective understanding of a candidate's political stance by utilizing quantitative data and advanced analytical methods. This assists voters in making informed decisions during federal elections.</span>
+    <span class="qa-text">This project tries to experiment with creating a tool called <code>POLITICS</code>, which is designed to assist individuals interested in voting activities by providing quantitative measures and data-driven procedures to understand the political leaning of candidates for general elections. <p></p> The primary purpose of the <code>POLITICS</code> tool is to offer voters a clear and objective understanding of a candidate's political stance by utilizing quantitative data and advanced analytical methods. This assists voters in making informed decisions during federal and general elections.</span>
 
   </div>
 </div>
