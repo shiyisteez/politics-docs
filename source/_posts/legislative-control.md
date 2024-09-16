@@ -1,5 +1,5 @@
 ---
-title: Legislative Influence
+title: PACs' Local Influence 
 nav_order: 1
 categories:
   - Frameworks
