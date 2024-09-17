@@ -3,7 +3,7 @@
 
 /* Desktop large
 ------------------------- */
-@media (min-width: 1200px) {
+@media (min-widt: 1200px) {
   .sidenav {
     width: 258px;
   }
@@ -67,7 +67,7 @@
   }
 
   a.brand {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .page-header h1 span.date {
@@ -78,7 +78,7 @@
   }
 
   .page-header h1 span.title {
-    font-size: 32px;
+    font-size: 24px;
     word-wrap: break-word;
     /* Ensures long words break */
     overflow-wrap: break-word;
@@ -88,6 +88,10 @@
     width: 100%;
     height: 400px;
   }
+  h1 {
+    line-height: 0.7em
+  }
+
 }
 
 /* Tablet to desktop
@@ -146,6 +150,10 @@
     font-size: 26px;
   }
 
+  h1 {
+    line-height: 0.7em
+  }
+
 }
 
 /* Tablet
@@ -182,10 +190,6 @@
     font-size: 28px;
   }
 
-  .page-header {
-    margin: initial;
-  }
-
   .page-header h1 span.date::before {
     display: contents;
     overflow: visible;
@@ -205,7 +209,9 @@
     font-size: 28px;
   }
 
-
+  h1 {
+    line-height: 0.7em
+  }
 }
 
 /* Landscape phones
@@ -276,12 +282,9 @@
 
   h1 {
     font-size: 24px;
-  }
-
-
-  h1 {
     margin: auto;
     padding-bottom: 10px;
+    line-height: 0.7em
   }
 
   .content {
@@ -340,10 +343,6 @@
     font-size: 13px;
     /* Adjust to 90% of the default size */
   }
-  .page-header {
-    padding-left: 2.5rem;
-  }
-
   .page-header h1 span.date::before {
     display: contents;
     overflow: visible;
@@ -376,7 +375,6 @@
   }
 
   .page-header {
-    padding-left: 2.5rem;
     font-size: 22px;
   }
 
