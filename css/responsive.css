@@ -75,6 +75,7 @@
     overflow: visible;
     width: 80;
     height: 80;
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.title {
@@ -111,12 +112,12 @@
     margin-left: 10rem;
     width: 0;
     height: 0;
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.date {
-    margin-top: 0.5rem;
     font-size: 16px;
-
+    padding-top: 0.5rem;
   }
 
   /* Adjust sidenav width */
@@ -197,12 +198,13 @@
     margin-left: 10rem;
     width: 0;
     height: 0;
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.date {
     font-size: 18px;
     position: absolute;
-
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.title {
@@ -248,12 +250,14 @@
     width: 0;
     height: 0;
     padding-right: 1rem
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.date {
     font-size: 12px;
     padding-left: 7.5rem;
     position: static;
+    padding-top: 0.5rem;
   }
 
   span#title-intro {
@@ -318,11 +322,13 @@
     width: 0;
     height: 0;
     position: static;
+    padding-top: 0.5rem;
 
   }
 
   .page-header h1 span.date {
     font-size: 12px;
+    padding-top: 0.5rem;
   }
 
   a.brand {
@@ -350,11 +356,12 @@
     margin-left: 10rem;
     width: 0;
     height: 0;
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.date {
     font-size: 15px;
-
+    padding-top: 0.5rem;
   }
   .page-header h1 span.title {
     font-size: 22px;
@@ -384,15 +391,13 @@
     font-size: 10px;
     width: 0;
     height: 0
+    padding-top: 0.5rem;
   }
 
   .page-header h1 span.date {
-    font-size: 10px;
     position: absolute;
     margin-right: 20px;
-  }
-
-  .page-header h1 span.date {
+    padding-top: 0.5rem;
     font-size: 15px;
 
   }
