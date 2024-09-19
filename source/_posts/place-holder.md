@@ -8,7 +8,7 @@ tags:
   - intro
 ---
 
-## <p id="title-politics" style="margin-top:-5px; margin-bottom: 13px; front-size: 20px; color: #363838"> 🔻 Measuring Political Subjectivity and Polarization</p>
+## <p id="title-politics" style="margin-top:-10px; margin-bottom: 13px; front-size: 20px; color: #363838"> 🔻 Measuring Political Subjectivity and Polarization</p>
 
 <p></p>
 

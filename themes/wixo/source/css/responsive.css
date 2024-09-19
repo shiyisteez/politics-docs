@@ -299,13 +299,25 @@
     line-height: 0.7em
   }
 
+  h1.post-title {
+    display: none;
+  }
+
   .content {
 
     margin: 20px 0px;
   }
 
 
+  p#title-politics {
+    font-size: 20px;
+  }
 
+  .qa-text {
+
+    padding-left: 0px;
+    margin-left: 0px;
+  }
 }
 
 
