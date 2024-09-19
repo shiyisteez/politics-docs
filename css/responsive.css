@@ -141,6 +141,7 @@
 
   .page-header {
     margin: initial;
+    padding: 2rem 2rem 1rem 2rem
   }
 
   a.brand {
@@ -182,6 +183,9 @@
   /* h1 {
     margin: auto;
   } */
+  .page-header {
+    padding: 2rem 2rem 1rem 2rem
+  }
 
   h1#Hello-There-Welcome-To-This-Blog {
     margin: auto;
@@ -265,6 +269,10 @@
     margin: auto;
   }
 
+  .page-header {
+    padding: 2rem 2rem 1rem 2rem
+
+  }
   /* h1 {
     margin: auto;
   } */
@@ -341,6 +349,11 @@
     position: relative
   }
 
+  .page-header {
+    padding: 2rem 2rem 1rem 2rem
+
+  }
+
 }
 
 /* Media query for screens between 600px and 900px */
@@ -371,6 +384,11 @@
   a.brand {
     font-size: 23.5px;
   }
+
+  .page-header {
+    padding: 2rem 2rem 1rem 2rem
+
+  }
 }
 
 
@@ -383,6 +401,7 @@
 
   .page-header {
     font-size: 22px;
+    padding: 2rem 2rem 1rem 2rem
   }
 
   .page-header h1 span.date::before {
@@ -391,13 +410,13 @@
     font-size: 10px;
     width: 0;
     height: 0
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
   }
 
   .page-header h1 span.date {
     position: absolute;
     margin-right: 20px;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     font-size: 15px;
 
   }
@@ -409,6 +428,7 @@
   a.brand {
     font-size: 23.5px;
   }
+
 }
 
 
