@@ -95,13 +95,13 @@ body {
 }
 
 .page .panel-heading {
-  background-color: #eee;
+  background-color: black;
   font-weight: bold;
 }
 
 .page .panel-collapse .panel-body {
   padding: 9px 15px;
-  background-color: #F5F5D5;
+  background-color: white;
   font-size: 16px;
   line-height: 24px;
 }
@@ -143,6 +143,10 @@ li i {
 
 a {
   color: #1863a1
+}
+
+a.panel-title {
+  color: white
 }
 
 a:focus {
@@ -454,7 +458,7 @@ td {
   scroll: auto;
   overflow: auto;
   max-height: 3in;
-  background-color: #fef;
+  background-color: #f0fbff;
   margin-bottom: 10px;
 }
 
