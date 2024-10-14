@@ -2,7 +2,7 @@
 title: Symbols and Ideologies
 nav_order: 4
 categories:
-  - Concepts
+  - Ideological Constructs
 ---
 
 ## 🔻 The Significance of Symbols and Ideologies

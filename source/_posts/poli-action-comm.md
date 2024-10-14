@@ -2,7 +2,7 @@
 title: Political Action Comm.
 nav_order: 5
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 

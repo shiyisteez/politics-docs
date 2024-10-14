@@ -2,7 +2,7 @@
 title: Economics in Politics  
 nav_order: 1
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 ## 🔻 Economic Policies and Political Ideologies

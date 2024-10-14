@@ -2,7 +2,7 @@
 title: Intro to Political Lingos
 nav_order: 4
 categories:
-  - Techniques
+  - Useful Techniques
 ---
 
 

@@ -2,7 +2,7 @@
 title: Religion & Non-profits
 nav_order : 4
 categories:
-  - Frameworks
+  - Useful Techniques
 ---
 
 

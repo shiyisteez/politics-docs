@@ -2,7 +2,7 @@
 title: Political System Design
 nav_order: 5
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 ## 🔻 Discussions on Political System Design

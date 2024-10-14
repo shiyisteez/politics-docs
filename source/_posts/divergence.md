@@ -2,7 +2,7 @@
 title: Measuring Divergence
 nav_order: 2
 categories:
-  - Techniques
+  - Useful Techniques
 ---
 
 ## 🔻 The Importance of Measuring Divergence in Social Science Research

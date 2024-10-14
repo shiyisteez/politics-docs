@@ -2,7 +2,7 @@
 title: Advocacy and Backers
 nav_order: 2
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 

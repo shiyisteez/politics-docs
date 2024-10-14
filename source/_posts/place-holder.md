@@ -3,7 +3,7 @@ title:
 default: true
 layout: search
 categories:
-  - Frameworks
+  - Political Insights
 tags:
   - intro
 ---

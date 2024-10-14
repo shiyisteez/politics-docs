@@ -2,7 +2,7 @@
 title: Resources and Lands
 nav_order: 1
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 

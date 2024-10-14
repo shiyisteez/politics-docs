@@ -1,8 +1,8 @@
 ---
-title: PACs' Local Influence 
+title: PACs' Local Influence
 nav_order: 1
 categories:
-  - Frameworks
+  - Political Insights
 ---
 
 This section will provide more information about the role of PACs in terms of exerting legislative control in a designated region.
