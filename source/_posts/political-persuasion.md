@@ -1,8 +1,8 @@
 ---
-title: Politics and Wordsmith
+title: Rhetoric & Persuasion
 nav_order: 1
 categories:
-  - Useful Techniques
+  - Political Insights
 ---
 
 
