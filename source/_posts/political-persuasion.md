@@ -70,17 +70,27 @@ Both the US left and right draw from liberalism, but their interpretations diver
 
 ---
 
-### **Wordsmith and Political Ideologies**
+### Rhetoric and Political Ideologies
 
-A **wordsmith** plays a crucial role in both left and right politics, as language is key to shaping public opinion and policy. Skilled wordsmiths are capable of framing political ideas in ways that resonate with their target audience, using rhetoric to either advocate for change or defend tradition.
+**Rhetoric** plays a significant role in shaping political ideologies on both the **left and right** by using language to persuade, influence, and mobilize public opinion. The strategies employed differ based on the core values and goals of each side, and rhetoric is used to advocate for change, defend tradition, or challenge opposing viewpoints.
 
-#### **Wordsmithing in Left Politics**:
-- On the left, wordsmiths focus on **inclusivity** and **social justice**. They might use terms like "equity" or "climate justice" to frame policy goals in a way that speaks to progressive values.
-- For example, framing healthcare reform as "Medicare for All" emphasizes universality and fairness, appealing to the left’s desire for social welfare.
+### Rhetoric in Left Politics:
+On the **left**, rhetoric often emphasizes themes of **social justice, inclusivity, and systemic change**. The language is used to frame issues in a way that appeals to progressive values and the need for societal reforms.
 
-#### **Wordsmithing in Right Politics**:
-- On the right, wordsmiths focus on **freedom**, **self-reliance**, and **traditional values**. Terms like "personal responsibility" and "family values" are often used to frame policies around individual liberty and cultural conservatism.
-- For instance, describing tax cuts as "economic freedom" or referring to regulation as "government overreach" appeals to the right’s belief in limited government and free markets.
+- **Framing Social Justice Issues**: Words like “**equity**,” “**oppression**,” and “**climate justice**” are commonly used in left-wing rhetoric to highlight **systemic inequalities** and the need for policies that address social disparities. For instance, advocating for “**climate justice**” not only acknowledges environmental concerns but also frames them as social issues that disproportionately affect marginalized communities.
+
+- **Universal and Fairness-Oriented Messaging**: In discussing policies like healthcare, left-wing rhetoric often uses terms such as “**Medicare for All**” or “**universal healthcare**.” These phrases evoke a sense of **fairness and inclusion**, resonating with the left's emphasis on social welfare and collective responsibility.
+
+- **Moral Appeals**: Leftist rhetoric frequently appeals to a **moral duty to protect the vulnerable** or **fight injustice**, seeking to create an emotional connection that motivates social change. This approach helps frame policies not only as beneficial but as **morally imperative**.
+
+### Rhetoric in Right Politics:
+On the **right**, rhetoric tends to focus on themes of **freedom, individualism, and traditional values**. The language used reflects an emphasis on **personal responsibility, cultural conservatism**, and **limited government**.
+
+- **Framing for Individual Liberty**: Terms like “**personal responsibility**” and “**economic freedom**” are employed to promote policies that **prioritize individual choice and self-reliance**. For example, when advocating for tax cuts, right-wing rhetoric may frame it as a matter of “**economic freedom**,” highlighting the importance of allowing people to retain control over their own money.
+
+- **Defending Tradition and Cultural Values**: Rhetoric on the right often includes phrases like “**family values**” or “**heritage**,” which evoke **cultural conservatism** and appeal to those who wish to **preserve traditional social structures**. This type of language helps frame policies in terms of **protecting what is perceived as the moral foundation** of society.
+
+- **Challenging Government Intervention**: When addressing regulation, right-wing rhetoric might use terms such as “**government overreach**” or “**big government**” to criticize policies seen as **excessive state intervention**. This aligns with the right's ideological commitment to **limited government** and **free markets**.
 
 ### Conclusion
 
